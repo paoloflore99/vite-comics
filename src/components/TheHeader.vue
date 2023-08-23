@@ -1,8 +1,15 @@
 <script>
 
 export default {
-
-}
+    data(){
+        return {
+            cardlist : [
+            {},
+            {}
+            ]
+        }
+    }
+};
 </script>
 
 
@@ -40,10 +47,27 @@ export default {
 
         </div>
 
+        <div class="sfondo-seconda-parte"></div>
+
+
+
+        <div class="bg-dark ">
+            <div class="container film-sala">
+                <div class="row">
+                    <div class="card"  v-for="card in cardlist">
+                        <img :src="card.thumb" alt="">
+                        <a href=""></a>
+                    </div>
+
+                    <button type="button" class="btn-centrato btn btn-primary ">Large button</button>
+                </div>
+            </div>
+        </div>
+
         <div class=" bg-dark">
             <div class="container p-5">
                 <div class="row ">
-                    <strong class="text-white fs-1 p-2">prova </strong>
+                    <strong class="text-white fs-4 p-2">CONTENT GOES HERO</strong>
                 </div>
             </div>
         </div>
@@ -71,4 +95,20 @@ export default {
 .nav-link {
     color: black;
 }
+
+.sfondo-seconda-parte {
+    background-image: url(../assets/img/jumbotron.jpg);
+    min-height: 450px;
+}
+    .btn-centrato {
+        
+        width: 150px;
+    }
+
+.film-sala {
+
+    color: white;
+}
+
 </style>
+

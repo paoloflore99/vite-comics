@@ -13,31 +13,35 @@ export default {
 <template>
     <div class="bg-primary p-4">
         <div class="container  bonus d-flex justify-content-between ">
-            <div>
-                <a href="#" class="filter"><img src="../assets/img/buy-comics-digital-comics.png" alt=""></a>
-                <p><a href="#">DIGITAL COMICS</a></p>
-            </div>
+            <ul class="nav-item">
+                <li><a href="#" class="filter"><img src="../assets/img/buy-comics-digital-comics.png" alt=""></a>
+                <a href="#">DIGITAL COMICS</a></li>
+            </ul>
+                
+                
+            <ul>
+                <li><a href="#"><img src="../assets/img/buy-comics-merchandise.png" alt=""></a>
+                <a href="#">DS MERCHANDISE</a></li>
+            </ul>
 
-            <div>
-                <a href="#"><img src="../assets/img/buy-comics-merchandise.png" alt=""></a>
-                <p><a href="#">DS MERCHANDISE</a></p>
+            <ul>
+                <li><a href="#"><img src="../assets/img/buy-comics-shop-locator.png" alt=""></a>
+                <a href="#">COMIC SHOP LOCATOR</a></li>
+            </ul>
+                
+                
+            <ul>
+                <li><a href="#"><img src="../assets/img/buy-comics-subscriptions.png" alt=""></a>
+                <a href="#">SUBSCIPTION</a></li>
+            </ul>
+            
 
-            </div>
+            <ul>
+                <li><a href="#"><img src="../assets/img/buy-dc-power-visa.svg" alt=""></a>
+                <a href="#">DC POWER VISA</a></li>
+            </ul>
+                
 
-            <div>
-                <a href="#"><img src="../assets/img/buy-comics-shop-locator.png" alt=""></a>
-                <p><a href="#">COMIC SHOP LOCATOR</a></p>
-            </div>
-
-            <div>
-                <a href="#"><img src="../assets/img/buy-comics-subscriptions.png" alt=""></a>
-                <p><a href="#">SUBSCIPTION</a></p>
-            </div>
-
-            <div>
-                <a href="#"><img src="../assets/img/buy-dc-power-visa.svg" alt=""></a>
-                <p><a href="#">DC POWER VISA</a></p>
-            </div>
         </div>
     </div>
 </template>
@@ -55,10 +59,14 @@ export default {
     a   {
         color: aliceblue;
         text-decoration: none;
+        padding: 5px;
+        font-size: 14px;
     }img {
-        width: 50px;
-        height: 50px;
-    }
+        width: 40px;
+        height: 40px;
+    } li {
+    list-style: none;
+}
 }
 
 
