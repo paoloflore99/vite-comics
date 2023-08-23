@@ -83,10 +83,10 @@ export default {
             <div class="col-md-6">
                 <div class="follow-us">
                     <h3 class="text-info">FOLLOW US</h3>
-                    <img src="../assets/img/footer-facebook.png" alt="">
-                    <img src="../assets/img/footer-periscope.png" alt="">
-                    <img src="../assets/img/footer-pinterest.png" alt="">
-                    <img src="../assets/img/footer-youtube.png" alt="">
+                    <a href="#"><img src="../assets/img/footer-facebook.png" alt=""></a>
+                    <a href="#"><img src="../assets/img/footer-periscope.png" alt=""></a>
+                    <a href="#"><img src="../assets/img/footer-pinterest.png" alt=""></a>
+                    <a href="#"><img src="../assets/img/footer-youtube.png" alt=""></a>
                 </div>
             </div>
         </div>
@@ -100,6 +100,8 @@ export default {
 
 <!------------------------------------------->
 <style lang="scss" scoped>
+@use "../styles/partials/_variables" as *;
+
 .sfondo {
     /* background-color: black;
     opacity: 0.9; */
@@ -109,7 +111,7 @@ export default {
 
 }
 .finale {
-    height: 200px;
+    // height: 200px;
     padding: 2rem;
 }
 
@@ -121,6 +123,7 @@ export default {
 
 a {
     color: grey;
+    // color: $griggio;
 }
 
 /* .opacita {

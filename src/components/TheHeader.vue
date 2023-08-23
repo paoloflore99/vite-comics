@@ -56,6 +56,8 @@ export default {
 <!------------------------------------------->
 <style lang="scss" scoped>
 
+@use "../styles/partials/_variables" as *;
+
 .centratura {
     align-items: centere;
 }
