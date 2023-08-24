@@ -51,26 +51,10 @@ export default {
 
 
 
-        <div class="bg-dark ">
-            <div class="container film-sala">
-                <div class="row">
-                    <div class="card"  v-for="card in cardlist">
-                        <img :src="card.thumb" alt="">
-                        <a href=""></a>
-                    </div>
+        <secondaparte></secondaparte>
 
-                    <button type="button" class="btn-centrato btn btn-primary ">Large button</button>
-                </div>
-            </div>
-        </div>
 
-        <div class=" bg-dark">
-            <div class="container p-5">
-                <div class="row ">
-                    <strong class="text-white fs-4 p-2">CONTENT GOES HERO</strong>
-                </div>
-            </div>
-        </div>
+
 
     </header>
 </template>
