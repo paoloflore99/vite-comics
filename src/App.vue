@@ -1,8 +1,7 @@
 <script>
-import TheFooter from './components/Thefooter.vue';
+import Thefooter from './components/Thefooter.vue';
 import TheHeader from './components/theheader.vue';
 import BonusVue from './components/bonus.vue';
-import secondaparte from './components/secondaparte.vue';
 import cardlist from '../src/card/card';
 
 // import cardlist  from '../public/card/card';
@@ -10,10 +9,9 @@ import cardlist from '../src/card/card';
 
 export default {
     components: {
-        TheFooter,
+        Thefooter,
         TheHeader,
         BonusVue,
-        secondaparte,
     },
     data() {
         return {
@@ -51,11 +49,11 @@ export default {
         </div>
     </div>
 
-    <secondaparte></secondaparte>
+    
     <THENav></THENav>
     <main></main>
     <BonusVue></BonusVue>
-    <TheFooter></TheFooter>
+    <Thefooter></Thefooter>
 
 </template>
 
@@ -78,5 +76,5 @@ a {
     justify-content: center;
     align-items: center;
     
-}
+} 
 </style>
