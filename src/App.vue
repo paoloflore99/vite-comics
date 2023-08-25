@@ -1,6 +1,7 @@
 <script>
 import TheFooter from './components/TheFooter.vue';
-import TheHeader from './components/TheHader.vue';
+// import TheHeader from './components/TheHeader.vue';
+import TheHeader from './components/TheHeader.vue';
 import BonusVue from './components/bonus.vue';
 
 import cardlist from '../src/card/card';
