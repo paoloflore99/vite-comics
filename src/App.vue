@@ -1,7 +1,8 @@
 <script>
-import Thefooter from './components/Thefooter.vue';
+import TheFooter from './components/TheFooter.vue';
 import TheHeader from './components/theheader.vue';
 import BonusVue from './components/bonus.vue';
+
 import cardlist from '../src/card/card';
 
 // import cardlist  from '../public/card/card';
@@ -9,7 +10,7 @@ import cardlist from '../src/card/card';
 
 export default {
     components: {
-        Thefooter,
+        TheFooter,
         TheHeader,
         BonusVue,
     },
@@ -53,7 +54,7 @@ export default {
     <THENav></THENav>
     <main></main>
     <BonusVue></BonusVue>
-    <Thefooter></Thefooter>
+    <TheFooter></TheFooter>
 
 </template>
 
