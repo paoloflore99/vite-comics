@@ -1,6 +1,6 @@
 <script>
 import TheFooter from './components/TheFooter.vue';
-import TheHeader from './components/theheader.vue';
+import TheHeader from './components/TheHader.vue';
 import BonusVue from './components/bonus.vue';
 
 import cardlist from '../src/card/card';
@@ -51,7 +51,6 @@ export default {
     </div>
 
     
-    <THENav></THENav>
     <main></main>
     <BonusVue></BonusVue>
     <TheFooter></TheFooter>
